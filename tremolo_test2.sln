@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio Version 17
+
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tremolo_test2 - Standalone Plugin", "tremolo_test2_StandalonePlugin.vcxproj", "{DD84AD66-C471-93D2-4DD7-4BD97AB1C787}"
+	ProjectSection(ProjectDependencies) = postProject
+		{21C51906-8C00-84E1-B205-6D22B2036085} = {21C51906-8C00-84E1-B205-6D22B2036085}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tremolo_test2 - VST3", "tremolo_test2_VST3.vcxproj", "{68B6F24F-7436-8983-4D60-457372BD2A1A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{21C51906-8C00-84E1-B205-6D22B2036085} = {21C51906-8C00-84E1-B205-6D22B2036085}
+		{2BA2FE20-3012-9DD9-6B9C-1DD62C0B0504} = {2BA2FE20-3012-9DD9-6B9C-1DD62C0B0504}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tremolo_test2 - Shared Code", "tremolo_test2_SharedCode.vcxproj", "{21C51906-8C00-84E1-B205-6D22B2036085}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tremolo_test2 - VST3 Manifest Helper", "tremolo_test2_VST3ManifestHelper.vcxproj", "{2BA2FE20-3012-9DD9-6B9C-1DD62C0B0504}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68B6F24F-7436-8983-4D60-457372BD2A1A}.Debug|x64.ActiveCfg = Debug|x64
+		{68B6F24F-7436-8983-4D60-457372BD2A1A}.Debug|x64.Build.0 = Debug|x64
+		{68B6F24F-7436-8983-4D60-457372BD2A1A}.Release|x64.ActiveCfg = Release|x64
+		{68B6F24F-7436-8983-4D60-457372BD2A1A}.Release|x64.Build.0 = Release|x64
+		{DD84AD66-C471-93D2-4DD7-4BD97AB1C787}.Debug|x64.ActiveCfg = Debug|x64
+		{DD84AD66-C471-93D2-4DD7-4BD97AB1C787}.Debug|x64.Build.0 = Debug|x64
+		{DD84AD66-C471-93D2-4DD7-4BD97AB1C787}.Release|x64.ActiveCfg = Release|x64
+		{DD84AD66-C471-93D2-4DD7-4BD97AB1C787}.Release|x64.Build.0 = Release|x64
+		{21C51906-8C00-84E1-B205-6D22B2036085}.Debug|x64.ActiveCfg = Debug|x64
+		{21C51906-8C00-84E1-B205-6D22B2036085}.Debug|x64.Build.0 = Debug|x64
+		{21C51906-8C00-84E1-B205-6D22B2036085}.Release|x64.ActiveCfg = Release|x64
+		{21C51906-8C00-84E1-B205-6D22B2036085}.Release|x64.Build.0 = Release|x64
+		{2BA2FE20-3012-9DD9-6B9C-1DD62C0B0504}.Debug|x64.ActiveCfg = Debug|x64
+		{2BA2FE20-3012-9DD9-6B9C-1DD62C0B0504}.Debug|x64.Build.0 = Debug|x64
+		{2BA2FE20-3012-9DD9-6B9C-1DD62C0B0504}.Release|x64.ActiveCfg = Release|x64
+		{2BA2FE20-3012-9DD9-6B9C-1DD62C0B0504}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
