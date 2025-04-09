@@ -277,6 +277,7 @@ juce::AudioProcessorValueTreeState::ParameterLayout Tremolo_test2AudioProcessor:
         //juce::AudioParameterFloatAttributes().withLabel( "Hz" )
     ));
 
+    // Définition d'un nouveau paramètre pour la sélection de la forme d'onde
     layout.add(std::make_unique<juce::AudioParameterChoice>(
         "waveform", "Waveform",
         juce::StringArray{ "Sine", "Square", "Saw", "Triangle", "Random" }, 0
